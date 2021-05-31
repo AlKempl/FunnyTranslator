@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Забавный переводчикъ</string>
+    <string name="title_activity_voice_actor">VoiceActorActivity</string>
+    <string name="welcome_message">Чтобы пользоваться приложением, разрешите использование микрофона этому приложению, а также приложению Google. После этого выберите язык, на который вы хотели бы перевести вашу речь.</string>
+    <string name="avatar_label">BLahBlhah</string>
+    <string name="your_image_description">avatar_descriptipn</string>
+    <string name="lang_yoda">Магистр Йода</string>
+    <string name="lang_dotrakiyan">Дотракийский</string>
+    <string name="lang_orc">Оркский</string>
+    <string name="lang_minion">Миньонский</string>
+    <string name="lang_doge">Доджский</string>
+    <string name="lang_valyrian">Валирийский</string>
+    <string name="saved_selected_lang_id">Сохраненное значение языка</string>
+    <string name="pig_latin">Pig Latin</string>
+    <string name="pirate">Пиратский</string>
+    <string name="dolan">Доланд Дак</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Дальше</string>
+    <string name="previous">Назад</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tts_initialization_error">Ошибка при инициализации TTS</string>
+</resources>

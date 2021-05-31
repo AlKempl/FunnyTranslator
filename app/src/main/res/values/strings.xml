@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Funny Translator</string>
+    <string name="title_activity_voice_actor">VoiceActorActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tts_initialization_error">Error initializing TTS</string>
+    <string name="welcome_message">To use this app please allow micro usage to this app and Google app. Then select the language you are willing to get your speech translated in.</string>
+    <string name="avatar_label">BLahBlhah</string>
+    <string name="your_image_description">avatar_descriptipn</string>
+    <string name="lang_yoda">Yoda</string>
+    <string name="lang_dotrakiyan">Dothraki</string>
+    <string name="lang_orc">Оркский</string>
+    <string name="lang_minion">Minion</string>
+    <string name="lang_doge">Doge</string>
+    <string name="lang_valyrian">Valyrian</string>
+    <string name="saved_selected_lang_id">Сохраненное значение языка</string>
+    <string name="pig_latin">Pig Latin</string>
+    <string name="pirate">Pirate Speak</string>
+    <string name="dolan">Dolan</string>
+</resources>

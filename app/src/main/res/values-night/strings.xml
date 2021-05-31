@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="avatar_label">BLahBlhah</string>
+    <string name="your_image_description">avatar_descriptipn</string>
+    <string name="lang_dotrakiyan">Yoda</string>
+    <string name="lang_orc">Orcish</string>
+    <string name="lang_minion">Minion</string>
+    <string name="lang_doge">Doge</string>
+    <string name="lang_valyrian">Valyrian</string>
+    <string name="saved_selected_lang_id">Сохраненное значение языка</string>
+    <string name="pig_latin">Pig Latin</string>
+    <string name="pirate">Pirate Speak</string>
+</resources>

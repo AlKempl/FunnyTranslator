@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fun_languages" translatable="false">
+        <item>@string/lang_yoda</item>
+        <item>@string/lang_dotrakiyan</item>
+        <item>@string/lang_orc</item>
+        <item>@string/lang_minion</item>
+        <item>@string/lang_doge</item>
+        <item>@string/lang_valyrian</item>
+        <item>@string/pig_latin</item>
+        <item>@string/pirate</item>
+        <item>@string/dolan</item>
+    </array>
+</resources>
