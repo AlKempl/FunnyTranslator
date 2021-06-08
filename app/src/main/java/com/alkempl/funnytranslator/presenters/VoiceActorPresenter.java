@@ -31,7 +31,7 @@ public class VoiceActorPresenter {
             if (baseView.getMessageRepository().getAll().size() == 0) {
                 Message initialMessage = new Message(
                         false,
-                        Application.getAppContext().getString(R.string.welcome_message), "");
+                        Application.getAppContext().getString(R.string.welcome_message), "", "English" );
                 baseView.getMessageRepository().insertAll(initialMessage);
                 baseView.addMessageToRecycler(initialMessage);
             }
@@ -74,7 +74,7 @@ public class VoiceActorPresenter {
 
             Log.d("RESULT", responseJSON);
             Message botResponse;
-            botResponse = new Message(false, result, "");
+            botResponse = new Message(false, result, "", language);
 
             baseView.addMessageToRecycler(botResponse);
             baseView.getMessageRepository().insertAll(botResponse);

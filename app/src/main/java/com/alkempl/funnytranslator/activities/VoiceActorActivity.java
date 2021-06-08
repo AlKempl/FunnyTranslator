@@ -117,7 +117,6 @@ public class VoiceActorActivity extends AppCompatActivity implements AdapterView
         this.languagesMapping = new HashMap<>();
         this.languagesMapping.put(getString(R.string.lang_yoda), "yoda.json");
         this.languagesMapping.put(getString(R.string.lang_dotrakiyan), "dothraki.json");
-        this.languagesMapping.put(getString(R.string.lang_orc), "orcish.json");
         this.languagesMapping.put(getString(R.string.lang_minion), "minion.json");
         this.languagesMapping.put(getString(R.string.lang_doge), "doge.json");
         this.languagesMapping.put(getString(R.string.lang_valyrian), "valyrian.json");
@@ -198,7 +197,7 @@ public class VoiceActorActivity extends AppCompatActivity implements AdapterView
         String language = sharedPref.getString(getString(R.string.saved_selected_lang_id), defaultValue);
 
         voiceActorPresenter.addMessage(
-                new Message(true, recognizedTextContainer.getText().toString(), ""),
+                new Message(true, recognizedTextContainer.getText().toString(), "", language ),
                 language
         );
         recognizedTextContainer.setText("");

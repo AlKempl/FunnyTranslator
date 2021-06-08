@@ -7,7 +7,7 @@ import com.alkempl.funnytranslator.entities.dao.MessageDao;
 
 @Database(entities = {Message.class}, version = AppDatabase.VERSION)
 public abstract class AppDatabase extends RoomDatabase {
-    static final int VERSION = 4;
+    static final int VERSION = 6;
 
     public abstract MessageDao messageDao();
 }

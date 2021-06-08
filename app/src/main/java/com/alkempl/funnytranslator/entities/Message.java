@@ -18,9 +18,13 @@ public class Message {
     @ColumnInfo(name = "image_url")
     public String imageUrl;
 
-    public Message(boolean isUserMessage, String content, String imageUrl) {
+    @ColumnInfo(name = "lang")
+    public String lang;
+
+    public Message(boolean isUserMessage, String content, String imageUrl, String lang) {
         this.isUserMessage = isUserMessage;
         this.content = content;
         this.imageUrl = imageUrl;
+        this.lang = lang;
     }
 }

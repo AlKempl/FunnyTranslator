@@ -53,6 +53,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof UsersMessageViewHolder) {
             ((UsersMessageViewHolder) holder).setMessage(messages.get(position).content);
+            ((UsersMessageViewHolder) holder).setLanguage(messages.get(position).lang);
         } else if (holder instanceof BotMessageViewHolder) {
             ((BotMessageViewHolder) holder).setMessage(messages.get(position));
         }
@@ -82,6 +83,8 @@ public class MessagesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
         @BindView(R.id.message_content)
         TextView messageContent;
+        @BindView(R.id.language_label)
+        TextView languageLabel;
 
         public UsersMessageViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -90,6 +93,10 @@ public class MessagesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
         public void setMessage(String message) {
             messageContent.setText(message);
+        }
+
+        public void setLanguage(String language) {
+            languageLabel.setText(language);
         }
     }
 
